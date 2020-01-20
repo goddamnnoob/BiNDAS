@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.das"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_SMS" />
+11-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+12-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:5:5-70
+12-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:5:22-67
+13
+14    <application
+14-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:7:5-29:19
+15        android:allowBackup="true"
+15-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:8:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.0.1] C:\Users\gowtham\.gradle\caches\transforms-2\files-2.1\8f8ab13dc8f4e84e14a8bb3d9ac92bc4\core-1.0.1\AndroidManifest.xml:22:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/appicon_round"
+18-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:9:9-45
+19        android:label="@string/app_name"
+19-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:10:9-41
+20        android:roundIcon="@mipmap/appicon_round"
+20-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:11:9-50
+21        android:supportsRtl="true"
+21-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:12:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:13:9-40
+24        <activity android:name="com.example.das.MainActivity" >
+24-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:14:9-20:20
+24-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:14:19-47
+25            <intent-filter>
+25-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:15:13-19:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:16:17-69
+26-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:16:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:18:17-77
+28-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:18:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity android:name="com.example.das.AddVehicleActivity" />
+31-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:21:9-55
+31-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:21:19-53
+32        <activity android:name="com.example.das.AlertActivity" />
+32-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:22:9-50
+32-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:22:19-48
+33        <activity android:name="com.example.das.TrackActivity" />
+33-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:23:9-50
+33-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:23:19-48
+34
+35        <receiver android:name="com.example.das.MessageReceiver" >
+35-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:24:9-28:20
+35-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:24:19-50
+36            <intent-filter>
+36-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:25:13-27:29
+37                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+37-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:26:17-82
+37-->C:\Users\gowtham\AndroidStudioProjects\DAS\app\src\main\AndroidManifest.xml:26:25-79
+38            </intent-filter>
+39        </receiver>
+40    </application>
+41
+42</manifest>

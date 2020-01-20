@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BiNDAS</string>
+    <string name="add_v">Add Vehicle</string>
+    <string name="track_v">Track Vehicle</string>
+    <string name="alert">Alert</string>
+    <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+    <string name="empty_view_subtitle_text">Get started by adding details of a vehicle</string>
+</resources>
